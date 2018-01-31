@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.shiftcft.MainActivity">
+    tools:context="com.example.alex.kuku.main">
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,5 +14,23 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:text="СКУКНИТЕ ДЛЯ ПРОДОЛЖЕНИЯ"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+
+    <LinearLayout
+        android:id="@+id/my_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/odin"></LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>
